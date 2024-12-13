@@ -11,6 +11,10 @@ USERS = {
     'continue':f"{os.environ['continue']}"
 }
 
+@app.route("", methods=['GET'])
+def main_page():
+    return "Hello world"
+
 @app.route('/keys', methods=['GET'])
 def protected():
     auth = request.authorization
