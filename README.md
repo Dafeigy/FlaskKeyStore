@@ -9,5 +9,6 @@ Should be pairs.
 # xxx < = > xxx_key
 export silicon=
 export silicon_key=
+export continue=
 ```
 

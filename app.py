@@ -11,7 +11,7 @@ USERS = {
     'continue':f"{os.environ['continue']}"
 }
 
-@app.route("", methods=['GET'])
+@app.route("/", methods=['GET'])
 def main_page():
     return "Hello world"
 
