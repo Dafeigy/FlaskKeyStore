@@ -5,9 +5,7 @@ app = Flask(__name__)
 
 # 预定义的用户和密码哈希
 USERS = {
-    # 'silicon':"scrypt:32768:8:1$5HBWGc5doFjgJXnn$5123dd177a269cefc9eee20a34a3f65ab8bbeab3e0d4cb2cfbcf2bd4510e390a12733a9d6ed304e1fb59816c2ce4a187a898addf02cbc567603ab561cc28436d",
     'silicon':f"{os.environ['silicon']}",
-    # 'continue':"scrypt:32768:8:1$5MpfHuykL0gvutVt$1152a5f3f8da08d2ce5a81b12b3a6ab8034bc8f50486d59684c8511824d1ae3cbd2111974636fe6e784533fb7845b34f223b581e676cb5b3cc2f6e39272926d4",
     'continue':f"{os.environ['continue']}"
 }
 
